@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 2rem; }
+        .greet { color: #1a73e8; }
+    </style>
+</head>
+<body>
+    <h1 class="greet">Hello, World!</h1>
+    <p>Click the button to see a greeting in the console and an alert.</p>
+    <button id="helloBtn">Say Hello</button>
+
+    <script>
+        const btn = document.getElementById('helloBtn');
+        btn.addEventListener('click', () => {
+            console.log('Hello from c:\\Battlefield\\Azure\\index.html');
+            alert('Hello, World!');
+        });
+
+        // log on load
+        console.log('Page loaded: Hello, World!');
+    </script>
+</body>
+</html>
